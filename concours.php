@@ -30,12 +30,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost/maquettefb/index.php">Concours photo</a>
+            <a class="navbar-brand" href="index.php">Concours photo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="http://localhost/maquettefb/concours.php">Concours</a></li>
-              <li><a href="http://localhost/maquettefb/inscription.php">Participer au concours</a></li>
+              <li><a href="concours.php">Concours</a></li>
+              <li><a href="inscription.php">Participer au concours</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -46,7 +46,7 @@
         <div class="container">
           <h2>Photo 1 - Nom_Participant</h2>
           <img src="http://placehold.it/1000x500">
-          <p class="text-right">        
+          <p class="text-right">
             <button type="button" class="btn btn-info">Voter</button>
           </p>
         </div>
@@ -56,7 +56,7 @@
         <div class="container">
           <h2>Photo 2 - Nom_Participant</h2>
           <img src="http://placehold.it/1000x500">
-          <p class="text-right">        
+          <p class="text-right">
             <button type="button" class="btn btn-success">Vote pris en compte</button>
           </p>
         </div>
@@ -66,7 +66,7 @@
         <div class="container">
           <h2>Photo 3 - Nom_Participant</h2>
           <img src="http://placehold.it/1000x500">
-          <p class="text-right">        
+          <p class="text-right">
             <button type="button" class="btn btn-info">Voter</button>
           </p>
         </div>
@@ -76,7 +76,7 @@
         <div class="container">
           <h2>Photo 4 - Nom_Participant</h2>
           <img src="http://placehold.it/1000x500">
-          <p class="text-right">        
+          <p class="text-right">
             <button type="button" class="btn btn-info">Voter</button>
           </p>
         </div>

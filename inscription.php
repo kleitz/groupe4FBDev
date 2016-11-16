@@ -30,12 +30,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost/maquettefb/index.php">Concours photo</a>
+            <a class="navbar-brand" href="index.php">Concours photo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="http://localhost/maquettefb/concours.php">Concours</a></li>
-              <li><a href="http://localhost/maquettefb/inscription.php">Participer au concours</a></li>
+              <li><a href="concours.php">Concours</a></li>
+              <li><a href="inscription.php">Participer au concours</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -44,7 +44,7 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="connection" style="margin-top:150px">
         <a href="http://localhost/maquettefb/inscription-v2.php">
-          <img src="https://static.events.ch/img/facebook-connect-button.png" class="img-responsive center-block" alt="">          
+          <img src="https://static.events.ch/img/facebook-connect-button.png" class="img-responsive center-block" alt="">
         </a>
       </div>
 
