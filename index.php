@@ -60,7 +60,7 @@
 
 							<?php if(isset($_SESSION["ACCESS_TOKEN"])) :?>
 
-			            <a href="logout.php">Se déconnecter</a>
+			            <a href="/private/logout.php">Se déconnecter</a>
 
 			            <?php
 

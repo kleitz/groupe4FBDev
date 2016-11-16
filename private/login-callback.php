@@ -28,5 +28,5 @@
 		unset($_SESSION["ACCESS_TOKEN"]);
 	}
 
-	header("Location: /");
+	header("Location: /index.php");
 ?>
