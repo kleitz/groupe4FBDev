@@ -49,14 +49,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-<<<<<<< Updated upstream
-            <a class="navbar-brand" href="index.php">Concours photo</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="concours.php">Concours</a></li>
-              <li><a href="inscription.php">Participer au concours</a></li>
-=======
+
             <a class="navbar-brand" href="/index.php">Concours photo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -101,7 +94,6 @@
 
 			        <?php endif;?>
 
->>>>>>> Stashed changes
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -111,21 +103,13 @@
       <h1>
         <p class="text-center">Participer au concours</p>
       </h1>
-<<<<<<< Updated upstream
       <img src="http://placehold.it/1140x700" class="img-responsive">
-=======
-      <img src="http://placehold.it/1140x700">
->>>>>>> Stashed changes
       <button type="button" class="btn btn-primary btn-lg btn-block">Inscrivez-vous</button>
 
 
       <div class="jumbotron" style="margin-top:10px">
 Nulla porttitor, nisi fermentum elementum pellentesque, nisi risus convallis arcu, vel ultrices dui libero pulvinar mi. Vivamus ac arcu at metus semper volutpat. Suspendisse tincidunt, lectus vitae eleifend varius, mi odio porta sapien, a dignissim enim libero in augue. Suspendisse quis erat a lectus ultrices mollis. Suspendisse potenti. Fusce lacus lectus, accumsan non diam quis, venenatis sodales nisl. Nulla odio tortor, semper non sapien et, imperdiet consectetur odio. Curabitur ultrices lobortis mauris id aliquam. Mauris porta tempus justo, condimentum cursus urna interdum ac. Vivamus ut magna at tellus dictum bibendum. Quisque feugiat leo eget molestie tempor. Praesent sed arcu scelerisque, tincidunt erat pellentesque, congue magna. Sed accumsan felis arcu, ut vulputate est viverra et. Ut posuere, ante ut elementum gravida, lacus erat malesuada tellus, nec aliquam urna metus non arcu.
       </div>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 
       <footer class="text-center">
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">Mention Légal</div>

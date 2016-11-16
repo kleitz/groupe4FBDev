@@ -52,21 +52,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-<<<<<<< Updated upstream:inscription.php
-            <a class="navbar-brand" href="index.php">Concours photo</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="concours.php">Concours</a></li>
-              <li><a href="inscription.php">Participer au concours</a></li>
-=======
+
             <a class="navbar-brand" href="/index.php">Concours photo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="/concours.php">Concours</a></li>
               <li><a href="/inscription.php">Participer au concours</a></li>
->>>>>>> Stashed changes:private/inscription.php
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -74,12 +66,8 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="connection" style="margin-top:150px">
-<<<<<<< Updated upstream:inscription.php
-        <a href="http://localhost/maquettefb/inscription-v2.php">
-=======
         <a href="<?php echo $loginUrl ?>">
 
->>>>>>> Stashed changes:private/inscription.php
           <img src="https://static.events.ch/img/facebook-connect-button.png" class="img-responsive center-block" alt="">
         </a>
       </div>
