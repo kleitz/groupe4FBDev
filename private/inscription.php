@@ -1,3 +1,21 @@
+<?php
+	session_start();
+	require_once __DIR__ . '/../vendor/autoload.php';
+
+	$fb = new Facebook\Facebook([
+		  'app_id' => '1175420889210427',
+		  'app_secret' => '19b0ba57d4538bed8974d0c677c53489',
+		  'default_graph_version' => 'v2.5',
+		]);
+
+	$helper = $fb->getRedirectLoginHelper();
+	$scope = ['email', 'user_birthday','user_photos','user_hometown','publish_actions'];
+	$loginUrl = $helper->getLoginUrl('https://groupe4.fbdev.fr/private/login-callback.php', $scope);
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +37,9 @@
     margin-right: -10px;
   }
 </style>
+
+
+
 <div class="container">
 
       <!-- Static navbar -->
@@ -31,12 +52,21 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+<<<<<<< Updated upstream:inscription.php
             <a class="navbar-brand" href="index.php">Concours photo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="concours.php">Concours</a></li>
               <li><a href="inscription.php">Participer au concours</a></li>
+=======
+            <a class="navbar-brand" href="/index.php">Concours photo</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/concours.php">Concours</a></li>
+              <li><a href="/inscription.php">Participer au concours</a></li>
+>>>>>>> Stashed changes:private/inscription.php
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -44,7 +74,12 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="connection" style="margin-top:150px">
+<<<<<<< Updated upstream:inscription.php
         <a href="http://localhost/maquettefb/inscription-v2.php">
+=======
+        <a href="<?php echo $loginUrl ?>">
+
+>>>>>>> Stashed changes:private/inscription.php
           <img src="https://static.events.ch/img/facebook-connect-button.png" class="img-responsive center-block" alt="">
         </a>
       </div>
